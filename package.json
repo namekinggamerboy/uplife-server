@@ -1,0 +1,13 @@
+{
+  "name": "uplife-api-server",
+  "description": "uplife-api server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+  "mongoose": "5.10.7",
+  "node-fetch": "2.6.1"
+  },
+"engines": { "node": "10.x" }
+}
