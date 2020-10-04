@@ -10,6 +10,7 @@ npm install uplife-api
 ```
 
 > # **Start function**
+
 ```js
 const UP = require("uplife-api");
 UP.start(
