@@ -9,7 +9,7 @@ Your project must be on node 10x
 npm install uplife-api
 ```
 
-> # **Start function**
+## **Start function**
 
 ```js
 const UP = require("uplife-api");
@@ -38,7 +38,7 @@ UP.start(
 Must be start function then use all
 {% endhint %}
 
-**Command function**
+## **Command function**
 ```js
 const UP = require("uplife-api");
 let command = UP.command;
@@ -50,7 +50,7 @@ code: "&sendMessage[Hii]"
 > 👉 All code function Follow[this url](https://harshpatel1735.gitbook.io/uplife-api/codefunction)
 
 
-**Discord.js Command Header**
+## **Discord.js Command Header**
 ```js
 const UP = require("uplife-api");
 UP.commandHeader({
