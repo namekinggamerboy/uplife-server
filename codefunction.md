@@ -2,6 +2,7 @@
 
 {% hint style="info" %}
 Here code with example
+
 Note: **prefix some [ default prefix enter start function ]**
 {% endhint %}
 
@@ -55,3 +56,5 @@ command({
  code: "<@&authorID>"
 });
 ```
+
+> This page Work in progress.
