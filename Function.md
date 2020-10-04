@@ -24,6 +24,9 @@ UP.start(
     help: "true"
   });
 ```
+{% hint style="info" %}
+Must be start function then use all
+{% endhint %}
 
 **Command function**
 ```js
