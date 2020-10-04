@@ -30,3 +30,12 @@ command({
  code: "&sendEmbed[ &title[Hello sir 👍] ]"
 });
 ```
+
+## &sendImage[<iamge url>]
+```js
+command({
+ name: "hii",
+ code: "&sendImage[https://media.tenor.com/images/1170597818a37a7c6e3e1d4baeb6e2eb/tenor.gif]"
+});
+```
+
