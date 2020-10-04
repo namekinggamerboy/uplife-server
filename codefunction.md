@@ -31,7 +31,7 @@ command({
 });
 ```
 
-## &sendImage[<iamge url>]
+## &sendImage[<image url>]
 ```js
 command({
  name: "hii",
@@ -39,3 +39,10 @@ command({
 });
 ```
 
+## &ping
+```js
+command({
+ name: "ping",
+ code: "`&ping` ms"
+});
+```
