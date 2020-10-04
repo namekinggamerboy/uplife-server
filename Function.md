@@ -1,8 +1,13 @@
-> # Uplife-api Function
+> Uplife-api Function
 
-{% hint style="info" %}
-Node version 10 only work this api
+# Npm information
+
+{% hint style="danger" %}
+Your project must be on node 12x
 {% endhint %}
+```js
+npm install uplife-api
+```
 
 **Start function**
 ```js
