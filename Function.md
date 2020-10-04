@@ -56,3 +56,6 @@ UP.commandHeader({
 name: __dirname+"/commands"
 })
 ```
+
+
+> Don't forget to join our [discord](https://discord.gg/KmngEup) server!
