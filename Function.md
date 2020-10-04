@@ -1,6 +1,6 @@
 
 
-# Npm information
+# Function information
 
 {% hint style="danger" %}
 Your project must be on node 10x
