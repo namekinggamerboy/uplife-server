@@ -1,5 +1,9 @@
 > # Uplife-api Function
 
+{% hint style="info" %}
+Node version 10 only work this api
+{% endhint %}
+
 **Start function**
 ```js
 const UP = require("uplife-api");
@@ -24,7 +28,7 @@ UP.start(
     help: "true"
   });
 ```
-{% hint style="info" %}
+{% hint style="danger" %}
 Must be start function then use all
 {% endhint %}
 
