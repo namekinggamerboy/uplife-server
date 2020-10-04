@@ -46,7 +46,7 @@ name: "hello",
 code: "&sendMessage[Hii]"
 });
 ```
-*👉 All code function Follow[this url](https://harshpatel1735.gitbook.io/uplife-api/codefunction)*
+> 👉 All code function Follow[this url](https://harshpatel1735.gitbook.io/uplife-api/codefunction)
 
 
 **Discord.js Command Header**
