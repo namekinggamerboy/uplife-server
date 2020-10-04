@@ -25,3 +25,20 @@ UP.start(
   });
 ```
 
+**Command function**
+```js
+const UP = require("uplife-api");
+let command = UP.command;
+command({
+name: "hello",
+code: "&sendMessage[Hii]"
+});
+```
+
+**Discord.js Command Header**
+```js
+const UP = require("uplife-api");
+UP.commandHeader({
+name: __dirname+"/commands"
+})
+```
