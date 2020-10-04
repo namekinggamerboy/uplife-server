@@ -2,6 +2,7 @@
 
 {% hint style="info" %}
 Here code with example
+Note: **prefix some [ default prefix enter start function ]**
 {% endhint %}
 
 {% hint style="danger" %}
@@ -31,7 +32,7 @@ command({
 });
 ```
 
-## &sendImage[<image url>]
+## &sendImage[< enter image url>]
 ```js
 command({
  name: "hii",
@@ -44,5 +45,13 @@ command({
 command({
  name: "ping",
  code: "`&ping` ms"
+});
+```
+
+## &authorID
+```js
+command({
+ name: "pingMe",
+ code: "<@&authorID>"
 });
 ```
