@@ -1,4 +1,4 @@
-# codefunction
+# code function
 
 {% hint style="info" %}
 Here code with example
