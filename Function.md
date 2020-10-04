@@ -33,7 +33,7 @@ UP.start(
     help: "true"
   });
 ```
-{% hint style="danger" %}
+{% hint style="info" %}
 Must be start function then use all
 {% endhint %}
 
