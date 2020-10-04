@@ -3,7 +3,7 @@
 # Npm information
 
 {% hint style="danger" %}
-Your project must be on node 12x
+Your project must be on node 10x
 {% endhint %}
 ```js
 npm install uplife-api
