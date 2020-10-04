@@ -1,6 +1,6 @@
 
 
-# Function information
+# Function wiki
 
 {% hint style="danger" %}
 Your project must be on node 10x
