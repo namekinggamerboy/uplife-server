@@ -1,4 +1,4 @@
-> Uplife-api Function
+
 
 # Npm information
 
@@ -9,7 +9,7 @@ Your project must be on node 12x
 npm install uplife-api
 ```
 
-**Start function**
+> # **Start function**
 ```js
 const UP = require("uplife-api");
 UP.start(
