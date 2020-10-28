@@ -62,7 +62,7 @@ command({
 ```js
 command({
  name: "hii",
- code: "&title[#00ff00 <or> lime]"
+ code: "&color[#00ff00 <or> lime]"
 });
 ```
 
@@ -153,7 +153,7 @@ command({
 ```js
 command({
  name: "ping",
- code: "`&sendMessage[&ping` ms]"
+ code: "&sendMessage[`&ping` ms]"
 });
 ```
 
@@ -185,7 +185,7 @@ command({
 ```js
 command({
  name: "useChannel",
- code: "&sendMessage[this message test message]"
+ code: "&useChannel[1233444] &sendMessage[this message test message]"
 });
 ```
 
