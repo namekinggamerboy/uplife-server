@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [welcome](README.md)
 * [Function wiki](function.md)
 * [code function](codefunction.md)
 
