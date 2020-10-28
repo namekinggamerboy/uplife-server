@@ -153,7 +153,7 @@ command({
 ```js
 command({
  name: "ping",
- code: "`&ping` ms"
+ code: "`&sendMessage[&ping` ms]"
 });
 ```
 
@@ -161,7 +161,31 @@ command({
 ```js
 command({
  name: "pingMe",
- code: "<@&authorID>"
+ code: "&sendMessage[<@&authorID>]"
+});
+```
+
+## &randomColor
+```js
+command({
+ name: "randamcolor",
+ code: "&sendMessage[Me generate random colour code &randomColor]"
+});
+```
+
+## &dm
+```js
+command({
+ name: "dmMe",
+ code: "&sendMessage[this message sned dm]"
+});
+```
+
+## &useChannel[< enter channel ID >]
+```js
+command({
+ name: "useChannel",
+ code: "&sendMessage[this message test message]"
 });
 ```
 
