@@ -1,17 +1,16 @@
-
-
 # Function wiki
 
 {% hint style="danger" %}
 Your project must be on node 10x
 {% endhint %}
-```js
+
+```javascript
 npm install uplife-api
 ```
 
 ## **Start function**
 
-```js
+```javascript
 const UP = require("uplife-api");
 UP.start(
   "[your Bot TOKEN]",
@@ -34,29 +33,33 @@ UP.start(
     help: "true"
   });
 ```
+
 {% hint style="info" %}
 Must be start function then use all
 {% endhint %}
 
 ## **Command function**
-```js
+
+```javascript
 const UP = require("uplife-api");
+UP.runCommand();
 let command = UP.command;
 command({
 name: "hello",
 code: "&sendMessage[Hii]"
 });
 ```
+
 > 👉 All code function Follow[this url](https://harshpatel1735.gitbook.io/uplife-api/codefunction)
 
-
 ## **Discord.js Command Header**
-```js
+
+```javascript
 const UP = require("uplife-api");
 UP.commandHeader({
 name: __dirname+"/commands"
 })
 ```
 
-
 > Don't forget to join our [discord](https://discord.gg/KmngEup) server!
+

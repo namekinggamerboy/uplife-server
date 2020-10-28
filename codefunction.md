@@ -3,95 +3,103 @@
 {% hint style="info" %}
 Here code with example
 
-Note: **prefix some [ default prefix enter start function ]**
+Note: **prefix some \[ default prefix enter start function \]**
 {% endhint %}
 
 {% hint style="danger" %}
-Not includes **<** **>**
+Not includes **&lt;** **&gt;**
 {% endhint %}
 
-
-```js
+```javascript
 const up = require("uplife-api");
 up.runCommand();
 let command = up.command;
 ```
 
+## &sendMessage\[&lt; enter your text &gt;\]
 
-## &sendMessage[< enter your text >]
-```js
+```javascript
 command({
  name: "hii",
  code: "&sendMessage[hello sir👍]"
 });
 ```
 
-## &author[< enter embed author Text >]
-```js
+## &author\[&lt; enter embed author Text &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&author[Hello sir 👍]"
 });
 ```
 
-## &authorIcon[< enter embed author icon url >]
-```js
+## &authorIcon\[&lt; enter embed author icon url &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&authorIcon[https://media.tenor.com/images/1170597818a37a7c6e3e1d4baeb6e2eb/tenor.gif]"
 });
 ```
 
-## &authorURL[< enter embed author url >]
-```js
+## &authorURL\[&lt; enter embed author url &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&authorIcon[https://npmjs.com/package/uplife-api]"
 });
 ```
 
-## &title[< enter embed title >]
-```js
+## &title\[&lt; enter embed title &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&title[Hello sir 👍]"
 });
 ```
 
-## &color[< enter embed color >]
-```js
+## &color\[&lt; enter embed color &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&color[#00ff00 <or> lime]"
 });
 ```
 
-## &description[< enter embed description >]
-```js
+## &description\[&lt; enter embed description &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&description[Hello sir 👍]"
 });
 ```
 
-## &field[ < enter embed field NAME> ; < enter embed field Value > ]
-```js
+## &field\[ &lt; enter embed field NAME&gt; ; &lt; enter embed field Value &gt; \]
+
+```javascript
 command({
  name: "hii",
  code: "&field[Hello sir;👍]"
 });
 ```
 
-## &image[< enter embed image url>]
-```js
+## &image\[&lt; enter embed image url&gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&image[https://media.tenor.com/images/1170597818a37a7c6e3e1d4baeb6e2eb/tenor.gif]"
 });
 ```
 
-## &attachment[< enter embed attachment>]
-```js
+## &attachment\[&lt; enter embed attachment&gt;\]
+
+```javascript
 const { Canvas } = require('canvas-constructor');
 
 let image = new Canvas(300, 300)
@@ -109,24 +117,27 @@ command({
 });
 ```
 
-## &thumbnail[< enter embed thumbnail url>]
-```js
+## &thumbnail\[&lt; enter embed thumbnail url&gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&thumbnail[https://media.tenor.com/images/1170597818a37a7c6e3e1d4baeb6e2eb/tenor.gif]"
 });
 ```
 
-## &footer[< enter embed footer Text >]
-```js
+## &footer\[&lt; enter embed footer Text &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&footer[Hello sir 👍]"
 });
 ```
 
-## &footerIcon[< enter embed footer icon url >]
-```js
+## &footerIcon\[&lt; enter embed footer icon url &gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&footerIcon[https://media.tenor.com/images/1170597818a37a7c6e3e1d4baeb6e2eb/tenor.gif]"
@@ -134,15 +145,17 @@ command({
 ```
 
 ## &addTimestamp
-```js
+
+```javascript
 command({
  name: "hii",
  code: "&addTimestamp"
 });
 ```
 
-## &sendImage[< enter image url>]
-```js
+## &sendImage\[&lt; enter image url&gt;\]
+
+```javascript
 command({
  name: "hii",
  code: "&sendImage[https://media.tenor.com/images/1170597818a37a7c6e3e1d4baeb6e2eb/tenor.gif]"
@@ -150,7 +163,8 @@ command({
 ```
 
 ## &ping
-```js
+
+```javascript
 command({
  name: "ping",
  code: "&sendMessage[`&ping` ms]"
@@ -158,7 +172,8 @@ command({
 ```
 
 ## &authorID
-```js
+
+```javascript
 command({
  name: "pingMe",
  code: "&sendMessage[<@&authorID>]"
@@ -166,7 +181,8 @@ command({
 ```
 
 ## &randomColor
-```js
+
+```javascript
 command({
  name: "randamcolor",
  code: "&sendMessage[Me generate random colour code &randomColor]"
@@ -174,15 +190,17 @@ command({
 ```
 
 ## &dm
-```js
+
+```javascript
 command({
  name: "dmMe",
  code: "&sendMessage[this message sned dm]"
 });
 ```
 
-## &useChannel[< enter channel ID >]
-```js
+## &useChannel\[&lt; enter channel ID &gt;\]
+
+```javascript
 command({
  name: "useChannel",
  code: "&useChannel[1233444] &sendMessage[this message test message]"
@@ -190,3 +208,4 @@ command({
 ```
 
 > This page Work in progress.
+
