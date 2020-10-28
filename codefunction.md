@@ -74,7 +74,7 @@ command({
 });
 ```
 
-## &field[< enter embed field NAME>;<enter embed field Value>]
+## &field[ < enter embed field NAME> ; < enter embed field Value > ]
 ```js
 command({
  name: "hii",
