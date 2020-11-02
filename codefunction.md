@@ -195,7 +195,7 @@ command({
 ```javascript
 command({
  name: "dmMe",
- code: "&sendMessage[this message sned dm]"
+ code: "&sendMessage[this message send dm]"
 });
 ```
 
