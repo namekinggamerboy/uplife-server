@@ -99,6 +99,7 @@ command({
 
 ## &attachment\[&lt; enter embed attachment&gt;\]
 
+**Note: must be install canvas-constructor package**
 ```javascript
 const { Canvas } = require('canvas-constructor');
 
@@ -109,7 +110,7 @@ let image = new Canvas(300, 300)
     .setTextFont('28px Impact')
     .printText('Hello World!', 130, 150)
     .toBuffer();
-let cimage = new up.diacord.MessageAttachment(image, "example.png");
+let cimage = new up.discord.MessageAttachment(image, "example.png");
 command({
  name: "hii",
  code: `&attachment[${cimage}]
