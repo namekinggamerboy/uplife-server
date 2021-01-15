@@ -99,7 +99,6 @@ command({
 
 ## &attachment\[&lt; enter embed attachment&gt;\]
 
-**Note: must be install canvas-constructor package**
 ```javascript
 const { Canvas } = require('canvas-constructor');
 
@@ -110,7 +109,7 @@ let image = new Canvas(300, 300)
     .setTextFont('28px Impact')
     .printText('Hello World!', 130, 150)
     .toBuffer();
-let cimage = new up.discord.MessageAttachment(image, "example.png");
+let cimage = new up.diacord.MessageAttachment(image, "example.png");
 command({
  name: "hii",
  code: `&attachment[${cimage}]
@@ -195,7 +194,7 @@ command({
 ```javascript
 command({
  name: "dmMe",
- code: "&sendMessage[this message send dm]"
+ code: "&dm &sendMessage[this message sned dm]"
 });
 ```
 
@@ -208,5 +207,72 @@ command({
 });
 ```
 
-> This page Work in progress.
+## &if[< Config data >]
 
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 > 0;yes this high;no this not high]]"
+});
+```
+
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 == 1;yes this some;no this not some]]"
+});
+```
+
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 >= 1;yes this high;no this not high]]"
+});
+```
+
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 != 1;yes this some;no this not some]]"
+});
+```
+
+## &authorAvatar
+
+```javascript
+command({
+ name: "myavatar",
+ code: "&sendMessage[&authorAvatar]"
+});
+```
+## &mention[< enter mention type >]
+
+```javascript
+command({
+ name: "mentionch",
+ code: "&sendMessage[<#&mention[0;channel]>]"
+});
+```
+
+```javascript
+command({
+ name: "mentionemoji",
+ code: "&sendMessage[emoji id-&mention[0;emoji]]"
+});
+```
+
+```javascript
+command({
+ name: "mentionuser",
+ code: "&sendMessage[<@!&mention[0;user]>]"
+});
+```
+
+```javascript
+command({
+ name: "mentionrole",
+ code: "&sendMessage[<@&&mention[0;role]>]"
+});
+```
+
+> This page Work in progress.
