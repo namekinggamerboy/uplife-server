@@ -194,7 +194,7 @@ command({
 ```javascript
 command({
  name: "dmMe",
- code: "&sendMessage[this message sned dm]"
+ code: "&dm &sendMessage[this message sned dm]"
 });
 ```
 
@@ -204,6 +204,74 @@ command({
 command({
  name: "useChannel",
  code: "&useChannel[1233444] &sendMessage[this message test message]"
+});
+```
+
+## &if[< Config data >]
+
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 > 0;yes this high;no this not high]]"
+});
+```
+
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 == 1;yes this some;no this not some]]"
+});
+```
+
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 >= 1;yes this high;no this not high]]"
+});
+```
+
+```javascript
+command({
+ name: "if",
+ code: "&sendMessage[&if[1 != 1;yes this some;no this not some]]"
+});
+```
+
+## &authorAvatar
+
+```javascript
+command({
+ name: "myavatar",
+ code: "&sendMessage[&authorAvatar]"
+});
+```
+## &mention[< enter mention type >]
+
+```javascript
+command({
+ name: "mentionch",
+ code: "&sendMessage[<#&mention[0;channel]>]"
+});
+```
+
+```javascript
+command({
+ name: "mentionemoji",
+ code: "&sendMessage[emoji id-&mention[0;emoji]]"
+});
+```
+
+```javascript
+command({
+ name: "mentionuser",
+ code: "&sendMessage[<@!&mention[0;user]>]"
+});
+```
+
+```javascript
+command({
+ name: "mentionrole",
+ code: "&sendMessage[<@&&mention[0;role]>]"
 });
 ```
 
