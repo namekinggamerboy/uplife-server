@@ -275,4 +275,13 @@ command({
 });
 ```
 
+## &addEmoji[< Add emoji name >;< Emoji url >]
+
+```javascript
+command({
+name: "addemoji",
+code: "&addEmoji[happy;https://cdn.discordapp.com/emojis/764694209319534602.gif] &sendMessage[emoji add] &title[Emoji &message[0]]"
+});
+```
+
 > This page Work in progress.
