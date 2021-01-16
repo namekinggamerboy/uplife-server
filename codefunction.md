@@ -280,8 +280,24 @@ command({
 ```javascript
 command({
 name: "addemoji",
-code: "&addEmoji[happy;https://cdn.discordapp.com/emojis/764694209319534602.gif] &sendMessage[emoji add] &title[Emoji &message[0]]"
+code: "&addEmoji[&message[0];&message[1]] &sendMessage[emoji add] &title[Emoji &message[0]]"
 });
 ```
 
+## &message[< message content number >] | &message
+
+```javascript
+command({
+name: "say",
+code: "&sendMessage[&message]"
+});
+```
+
+```javascript
+command({
+name: "say",
+code: "&sendMessage[&message[0]&mesage[2]]"
+});
+```
+**This up example just give 1 and 3 (input: !say hi hello guys | but bot send output: hi guys)**
 > This page Work in progress.
